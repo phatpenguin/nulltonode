@@ -1,0 +1,34 @@
+@import "compass/css3";
+@import "compass/reset";
+
+// Sass Bootstrap
+@import "mixins";
+@import "variables";
+@import "type";
+
+
+.css-head-img {
+  background: url(../img/SaltLakeSkylineBlurrr.png) no-repeat;
+  background-size: cover;
+  height: 500px;
+  width:100%;
+}
+
+.css-head-logo {
+  width:100%;
+  margin-top:10em;
+}
+
+.css-logo-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.css-module {
+  min-width:300px;
+  width: 60%;
+  background: rgba(200, 200, 200, .3);
+  margin: 4em auto;
+  padding: 20px;
+  @include border-radius(8px);
+}
