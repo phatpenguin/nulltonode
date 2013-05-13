@@ -5,7 +5,7 @@
 http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
-add_import_path "components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/"
+add_import_path "components/compass-twitter-bootstrap/stylesheets_sass/"
 images_dir = "img"
 javascripts_dir = "js"
 

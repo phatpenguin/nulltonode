@@ -1,3 +1,13 @@
 {
-  "compass-twitter-bootstrap": "components/compass-twitter-bootstrap"
+  "name": "Null to Node",
+  "version": "v 0.1.0",
+  "main": "index.html",
+  "dependencies": {
+    "compass-twitter-bootstrap": "~2.3.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
 }

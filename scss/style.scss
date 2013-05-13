@@ -1,34 +1,83 @@
 @import "compass/css3";
-@import "compass/reset";
 
 // Sass Bootstrap
-@import "mixins";
-@import "variables";
-@import "type";
+@import "compass_twitter_bootstrap/variables";
+@import "compass_twitter_bootstrap/mixins";
+@import "compass_twitter_bootstrap/reset";
+@import "compass_twitter_bootstrap/scaffolding";
+@import "compass_twitter_bootstrap/type";
+@import "compass_twitter_bootstrap/font-awesome";
+
+$headerHeight: 500px;
 
 
 .css-head-img {
   background: url(../img/SaltLakeSkylineBlurrr.png) no-repeat;
   background-size: cover;
-  height: 500px;
+  height: $headerHeight;
   width:100%;
 }
 
 .css-head-logo {
   width:100%;
   margin-top:10em;
+  vertical-align: middle;
 }
 
 .css-logo-container {
+  line-height: $headerHeight / 2;
   width: 40%;
   margin: 0 auto;
 }
 
-.css-module {
+.css-main-body {
   min-width:300px;
   width: 60%;
-  background: rgba(200, 200, 200, .3);
   margin: 4em auto;
+}
+
+.css-module {
+  width: 100%;
+  background: rgba(175, 175, 175, .5);
   padding: 20px;
   @include border-radius(8px);
+}
+
+.css-null {
+  font-family: monospace;
+  font-weight: normal;
+  color: maroon;
+}
+
+.css-node-img {
+  height: 2ex;
+  margin-bottom: 1ex;
+}
+
+.css-desc {
+  text-indent: 2em;
+}
+
+.css-teacher-profiles {
+  margin: 0 auto;
+}
+
+.css-teacher-profile {
+  display: inline-block;
+  width: 49%;
+  margin-top: 2em;
+}
+
+.css-profile-container {
+  text-align: center;
+}
+
+.css-profile-pic {
+  width: 175px;
+  @include border-radius(50em);
+}
+
+.css-teacher-profile-inner {
+  margin: 0 auto;
+  width: 75%;
 }
