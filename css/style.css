@@ -2231,7 +2231,296 @@ ul.icons li [class*=" icon-"] {
   content: "\f115";
 }
 
-/* line 14, ../scss/style.scss */
+/* line 1, ../scss/_social_buttons.scss */
+.css-socialw {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: rgba(175, 175, 175, 0.5);
+  max-width: 202px;
+  margin: 20px auto;
+  overflow: auto;
+  height: 100%;
+  padding: 15px;
+}
+
+/* line 10, ../scss/_social_buttons.scss */
+.css-dribble {
+  border: 1px solid #292929;
+  width: 37px;
+  height: 62px;
+  margin-left: 1px;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 19, ../scss/_social_buttons.scss */
+.css-www, .css-github, .css-twitter, .css-linkedin {
+  border: 1px solid #292929;
+  width: 37px;
+  height: 62px;
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+/*    ANIMATIONS   */
+/* line 31, ../scss/_social_buttons.scss */
+.css-animate {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 42, ../scss/_social_buttons.scss */
+.css-animate.queue {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* line 49, ../scss/_social_buttons.scss */
+.css-animate.queue2s {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+/* line 56, ../scss/_social_buttons.scss */
+.css-animate.queue3s {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+/* line 63, ../scss/_social_buttons.scss */
+.css-animate.queue4s {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+/* Fade In Down */
+@-webkit-keyframes css-fadeInDown {
+  /* line 72, ../scss/_social_buttons.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+  }
+
+  /* line 77, ../scss/_social_buttons.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes css-fadeInDown {
+  /* line 84, ../scss/_social_buttons.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-100px);
+  }
+
+  /* line 89, ../scss/_social_buttons.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes css-fadeInDown {
+  /* line 96, ../scss/_social_buttons.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-100px);
+  }
+
+  /* line 101, ../scss/_social_buttons.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes css-fadeInDown {
+  /* line 108, ../scss/_social_buttons.scss */
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  /* line 113, ../scss/_social_buttons.scss */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* line 119, ../scss/_social_buttons.scss */
+.css-fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/* Fade In Down */
+/* Social 1 Animation */
+/* line 130, ../scss/_social_buttons.scss */
+.css-dribble {
+  position: relative;
+}
+
+/* line 131, ../scss/_social_buttons.scss */
+.css-dribble img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-transition-duration: 250ms;
+}
+
+/* line 139, ../scss/_social_buttons.scss */
+.css-dribble:hover img {
+  margin-top: -62px;
+}
+
+/* line 142, ../scss/_social_buttons.scss */
+.css-dribble .css-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* Social 2 Animation */
+/* line 152, ../scss/_social_buttons.scss */
+.css-www {
+  position: relative;
+}
+
+/* line 153, ../scss/_social_buttons.scss */
+.css-www img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-transition-duration: 250ms;
+}
+
+/* line 161, ../scss/_social_buttons.scss */
+.css-www:hover img {
+  margin-top: -62px;
+}
+
+/* line 164, ../scss/_social_buttons.scss */
+.css-www .css-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* Social 3 Animation */
+/* line 174, ../scss/_social_buttons.scss */
+.css-github {
+  position: relative;
+}
+
+/* line 175, ../scss/_social_buttons.scss */
+.css-github img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-transition-duration: 250ms;
+}
+
+/* line 183, ../scss/_social_buttons.scss */
+.css-github:hover img {
+  margin-top: -62px;
+}
+
+/* line 186, ../scss/_social_buttons.scss */
+.css-github .css-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* Social 4 Animation */
+/* line 196, ../scss/_social_buttons.scss */
+.css-twitter {
+  position: relative;
+}
+
+/* line 197, ../scss/_social_buttons.scss */
+.css-twitter img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-transition-duration: 250ms;
+}
+
+/* line 205, ../scss/_social_buttons.scss */
+.css-twitter:hover img {
+  margin-top: -62px;
+}
+
+/* line 208, ../scss/_social_buttons.scss */
+.css-twitter .css-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* Social 5 Animation */
+/* line 218, ../scss/_social_buttons.scss */
+.css-linkedin {
+  position: relative;
+}
+
+/* line 219, ../scss/_social_buttons.scss */
+.css-linkedin img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: margin-top;
+  -webkit-transition-timing-function: ease-in;
+  -webkit-transition-duration: 250ms;
+}
+
+/* line 227, ../scss/_social_buttons.scss */
+.css-linkedin:hover img {
+  margin-top: -62px;
+}
+
+/* line 230, ../scss/_social_buttons.scss */
+.css-linkedin .css-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* line 18, ../scss/style.scss */
 .css-head-img {
   background: url(../img/SaltLakeSkylineBlurrr.png) no-repeat;
   background-size: cover;
@@ -2239,73 +2528,74 @@ ul.icons li [class*=" icon-"] {
   width: 100%;
 }
 
-/* line 21, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 .css-head-logo {
   width: 100%;
   margin-top: 10em;
   vertical-align: middle;
 }
 
-/* line 27, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .css-logo-container {
   line-height: 250px;
   width: 40%;
   margin: 0 auto;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 .css-main-body {
   min-width: 300px;
   width: 60%;
   margin: 4em auto;
 }
 
-/* line 39, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .css-module {
   width: 100%;
-  background: rgba(175, 175, 175, 0.5);
   padding: 20px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
+  background: rgba(175, 175, 175, 0.5);
 }
 
-/* line 46, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .css-null {
   font-family: monospace;
   font-weight: normal;
   color: maroon;
 }
 
-/* line 52, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 .css-node-img {
   height: 2ex;
   margin-bottom: 1ex;
 }
 
-/* line 57, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 .css-desc {
   text-indent: 2em;
 }
 
-/* line 61, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .css-teacher-profiles {
   margin: 0 auto;
 }
 
-/* line 65, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 .css-teacher-profile {
   display: inline-block;
   width: 49%;
-  margin-top: 2em;
+  margin-top: 0ex;
+  vertical-align: top;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .css-profile-container {
   text-align: center;
 }
 
-/* line 75, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .css-profile-pic {
   width: 175px;
   -webkit-border-radius: 50em;
@@ -2313,8 +2603,20 @@ ul.icons li [class*=" icon-"] {
   border-radius: 50em;
 }
 
-/* line 80, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .css-teacher-profile-inner {
   margin: 0 auto;
   width: 75%;
+}
+
+/* line 89, ../scss/style.scss */
+.css-instruct-head {
+  margin-top: 2ex;
+  text-align: center;
+}
+
+/* line 94, ../scss/style.scss */
+.css-instruct-name {
+  text-align: center;
+  margin: 0ex;
 }

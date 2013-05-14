@@ -8,8 +8,12 @@
 @import "compass_twitter_bootstrap/type";
 @import "compass_twitter_bootstrap/font-awesome";
 
-$headerHeight: 500px;
+// Modules
+@import "mixins";
+@import "social_buttons";
 
+// Vars
+$headerHeight: 500px;
 
 .css-head-img {
   background: url(../img/SaltLakeSkylineBlurrr.png) no-repeat;
@@ -38,9 +42,8 @@ $headerHeight: 500px;
 
 .css-module {
   width: 100%;
-  background: rgba(175, 175, 175, .5);
   padding: 20px;
-  @include border-radius(8px);
+  @include well-like;
 }
 
 .css-null {
@@ -65,7 +68,8 @@ $headerHeight: 500px;
 .css-teacher-profile {
   display: inline-block;
   width: 49%;
-  margin-top: 2em;
+  margin-top: 0ex;
+  vertical-align: top;
 }
 
 .css-profile-container {
@@ -80,4 +84,14 @@ $headerHeight: 500px;
 .css-teacher-profile-inner {
   margin: 0 auto;
   width: 75%;
+}
+
+.css-instruct-head {
+  margin-top: 2ex;
+  text-align: center;
+}
+
+.css-instruct-name {
+  text-align: center;
+  margin: 0ex;
 }

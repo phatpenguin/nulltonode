@@ -1,0 +1,4 @@
+@mixin well-like {
+  @include border-radius(8px);
+  background: rgba(175, 175, 175, .5);
+}
