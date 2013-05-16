@@ -1,10 +1,13 @@
 .css-socialw {
-  @include well-like;
   max-width: 202px;
   margin: 20px auto;
   overflow: auto;
   height: 100%;
-  padding: 15px;
+  padding: 0;
+  // padding: 10px 4px 10px 0px;
+  // border: solid 1px #ddd;
+  // border-radius: 4px;
+  // background: #f8f8f8;
 }
 
 .css-dribble {
@@ -17,7 +20,7 @@
 }
 
 .css-www,.css-github,.css-twitter,.css-linkedin {
-  border: 1px solid #292929;
+  border: 1px solid #ccc;
   width: 37px;
   height: 62px;
   float: left;

@@ -715,58 +715,50 @@ a [class*=" icon-"] {
 /* line 87, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 1.33333em;
+  font-size: 1.333em;
 }
 
 /* line 92, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .btn [class^="icon-"],
-.btn [class*=" icon-"], .nav [class^="icon-"],
-.nav [class*=" icon-"] {
+.btn [class*=" icon-"], .nav [class^="icon-"], .nav [class*=" icon-"] {
   display: inline;
   /* keeps button heights with and without icons the same */
 }
 /* line 96, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .btn [class^="icon-"].icon-large,
-.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
-.nav [class*=" icon-"].icon-large {
+.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large, .nav [class*=" icon-"].icon-large {
   line-height: 0.9em;
 }
 /* line 98, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .btn [class^="icon-"].icon-spin,
-.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
-.nav [class*=" icon-"].icon-spin {
+.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin, .nav [class*=" icon-"].icon-spin {
   display: inline-block;
 }
 
 /* line 102, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .nav-tabs [class^="icon-"],
-.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
-.nav-pills [class*=" icon-"] {
+.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"], .nav-pills [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
 }
 /* line 105, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
 .nav-tabs [class*=" icon-"],
-.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
-.nav-pills [class*=" icon-"],
-.nav-pills [class*=" icon-"].icon-large {
+.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large, .nav-pills [class*=" icon-"], .nav-pills [class*=" icon-"].icon-large {
   line-height: 0.9em;
 }
 
 /* line 109, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 li [class^="icon-"],
-li [class*=" icon-"], .nav li [class^="icon-"],
-.nav li [class*=" icon-"] {
+li [class*=" icon-"], .nav li [class^="icon-"], .nav li [class*=" icon-"] {
   display: inline-block;
   width: 1.25em;
   text-align: center;
 }
 /* line 114, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 li [class^="icon-"].icon-large,
-li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
-.nav li [class*=" icon-"].icon-large {
+li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large, .nav li [class*=" icon-"].icon-large {
   /* increased font size for icon-large */
-  width: 1.5625em;
+  width: 1.563em;
 }
 
 /* line 118, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
@@ -2233,18 +2225,14 @@ ul.icons li [class*=" icon-"] {
 
 /* line 1, ../scss/_social_buttons.scss */
 .css-socialw {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  background: rgba(175, 175, 175, 0.5);
   max-width: 202px;
   margin: 20px auto;
   overflow: auto;
   height: 100%;
-  padding: 15px;
+  padding: 0;
 }
 
-/* line 10, ../scss/_social_buttons.scss */
+/* line 13, ../scss/_social_buttons.scss */
 .css-dribble {
   border: 1px solid #292929;
   width: 37px;
@@ -2254,9 +2242,9 @@ ul.icons li [class*=" icon-"] {
   overflow: hidden;
 }
 
-/* line 19, ../scss/_social_buttons.scss */
+/* line 22, ../scss/_social_buttons.scss */
 .css-www, .css-github, .css-twitter, .css-linkedin {
-  border: 1px solid #292929;
+  border: 1px solid #ccc;
   width: 37px;
   height: 62px;
   float: left;
@@ -2265,7 +2253,7 @@ ul.icons li [class*=" icon-"] {
 }
 
 /*    ANIMATIONS   */
-/* line 31, ../scss/_social_buttons.scss */
+/* line 34, ../scss/_social_buttons.scss */
 .css-animate {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
@@ -2277,7 +2265,7 @@ ul.icons li [class*=" icon-"] {
   animation-fill-mode: both;
 }
 
-/* line 42, ../scss/_social_buttons.scss */
+/* line 45, ../scss/_social_buttons.scss */
 .css-animate.queue {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
@@ -2285,7 +2273,7 @@ ul.icons li [class*=" icon-"] {
   animation-delay: 1s;
 }
 
-/* line 49, ../scss/_social_buttons.scss */
+/* line 52, ../scss/_social_buttons.scss */
 .css-animate.queue2s {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
@@ -2293,7 +2281,7 @@ ul.icons li [class*=" icon-"] {
   animation-delay: 2s;
 }
 
-/* line 56, ../scss/_social_buttons.scss */
+/* line 59, ../scss/_social_buttons.scss */
 .css-animate.queue3s {
   -webkit-animation-delay: 3s;
   -moz-animation-delay: 3s;
@@ -2301,7 +2289,7 @@ ul.icons li [class*=" icon-"] {
   animation-delay: 3s;
 }
 
-/* line 63, ../scss/_social_buttons.scss */
+/* line 66, ../scss/_social_buttons.scss */
 .css-animate.queue4s {
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
@@ -2311,13 +2299,13 @@ ul.icons li [class*=" icon-"] {
 
 /* Fade In Down */
 @-webkit-keyframes css-fadeInDown {
-  /* line 72, ../scss/_social_buttons.scss */
+  /* line 75, ../scss/_social_buttons.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100px);
   }
 
-  /* line 77, ../scss/_social_buttons.scss */
+  /* line 80, ../scss/_social_buttons.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -2325,13 +2313,13 @@ ul.icons li [class*=" icon-"] {
 }
 
 @-moz-keyframes css-fadeInDown {
-  /* line 84, ../scss/_social_buttons.scss */
+  /* line 87, ../scss/_social_buttons.scss */
   0% {
     opacity: 0;
     -moz-transform: translateY(-100px);
   }
 
-  /* line 89, ../scss/_social_buttons.scss */
+  /* line 92, ../scss/_social_buttons.scss */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -2339,13 +2327,13 @@ ul.icons li [class*=" icon-"] {
 }
 
 @-o-keyframes css-fadeInDown {
-  /* line 96, ../scss/_social_buttons.scss */
+  /* line 99, ../scss/_social_buttons.scss */
   0% {
     opacity: 0;
     -o-transform: translateY(-100px);
   }
 
-  /* line 101, ../scss/_social_buttons.scss */
+  /* line 104, ../scss/_social_buttons.scss */
   100% {
     opacity: 1;
     -o-transform: translateY(0);
@@ -2353,20 +2341,20 @@ ul.icons li [class*=" icon-"] {
 }
 
 @keyframes css-fadeInDown {
-  /* line 108, ../scss/_social_buttons.scss */
+  /* line 111, ../scss/_social_buttons.scss */
   0% {
     opacity: 0;
     transform: translateY(-100px);
   }
 
-  /* line 113, ../scss/_social_buttons.scss */
+  /* line 116, ../scss/_social_buttons.scss */
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-/* line 119, ../scss/_social_buttons.scss */
+/* line 122, ../scss/_social_buttons.scss */
 .css-fadeInDown {
   -webkit-animation-name: fadeInDown;
   -moz-animation-name: fadeInDown;
@@ -2376,12 +2364,12 @@ ul.icons li [class*=" icon-"] {
 
 /* Fade In Down */
 /* Social 1 Animation */
-/* line 130, ../scss/_social_buttons.scss */
+/* line 133, ../scss/_social_buttons.scss */
 .css-dribble {
   position: relative;
 }
 
-/* line 131, ../scss/_social_buttons.scss */
+/* line 134, ../scss/_social_buttons.scss */
 .css-dribble img {
   position: absolute;
   left: 0;
@@ -2391,12 +2379,12 @@ ul.icons li [class*=" icon-"] {
   -webkit-transition-duration: 250ms;
 }
 
-/* line 139, ../scss/_social_buttons.scss */
+/* line 142, ../scss/_social_buttons.scss */
 .css-dribble:hover img {
   margin-top: -62px;
 }
 
-/* line 142, ../scss/_social_buttons.scss */
+/* line 145, ../scss/_social_buttons.scss */
 .css-dribble .css-details {
   position: absolute;
   left: 0;
@@ -2405,12 +2393,12 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* Social 2 Animation */
-/* line 152, ../scss/_social_buttons.scss */
+/* line 155, ../scss/_social_buttons.scss */
 .css-www {
   position: relative;
 }
 
-/* line 153, ../scss/_social_buttons.scss */
+/* line 156, ../scss/_social_buttons.scss */
 .css-www img {
   position: absolute;
   left: 0;
@@ -2420,12 +2408,12 @@ ul.icons li [class*=" icon-"] {
   -webkit-transition-duration: 250ms;
 }
 
-/* line 161, ../scss/_social_buttons.scss */
+/* line 164, ../scss/_social_buttons.scss */
 .css-www:hover img {
   margin-top: -62px;
 }
 
-/* line 164, ../scss/_social_buttons.scss */
+/* line 167, ../scss/_social_buttons.scss */
 .css-www .css-details {
   position: absolute;
   left: 0;
@@ -2434,12 +2422,12 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* Social 3 Animation */
-/* line 174, ../scss/_social_buttons.scss */
+/* line 177, ../scss/_social_buttons.scss */
 .css-github {
   position: relative;
 }
 
-/* line 175, ../scss/_social_buttons.scss */
+/* line 178, ../scss/_social_buttons.scss */
 .css-github img {
   position: absolute;
   left: 0;
@@ -2449,12 +2437,12 @@ ul.icons li [class*=" icon-"] {
   -webkit-transition-duration: 250ms;
 }
 
-/* line 183, ../scss/_social_buttons.scss */
+/* line 186, ../scss/_social_buttons.scss */
 .css-github:hover img {
   margin-top: -62px;
 }
 
-/* line 186, ../scss/_social_buttons.scss */
+/* line 189, ../scss/_social_buttons.scss */
 .css-github .css-details {
   position: absolute;
   left: 0;
@@ -2463,12 +2451,12 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* Social 4 Animation */
-/* line 196, ../scss/_social_buttons.scss */
+/* line 199, ../scss/_social_buttons.scss */
 .css-twitter {
   position: relative;
 }
 
-/* line 197, ../scss/_social_buttons.scss */
+/* line 200, ../scss/_social_buttons.scss */
 .css-twitter img {
   position: absolute;
   left: 0;
@@ -2478,12 +2466,12 @@ ul.icons li [class*=" icon-"] {
   -webkit-transition-duration: 250ms;
 }
 
-/* line 205, ../scss/_social_buttons.scss */
+/* line 208, ../scss/_social_buttons.scss */
 .css-twitter:hover img {
   margin-top: -62px;
 }
 
-/* line 208, ../scss/_social_buttons.scss */
+/* line 211, ../scss/_social_buttons.scss */
 .css-twitter .css-details {
   position: absolute;
   left: 0;
@@ -2492,12 +2480,12 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* Social 5 Animation */
-/* line 218, ../scss/_social_buttons.scss */
+/* line 221, ../scss/_social_buttons.scss */
 .css-linkedin {
   position: relative;
 }
 
-/* line 219, ../scss/_social_buttons.scss */
+/* line 222, ../scss/_social_buttons.scss */
 .css-linkedin img {
   position: absolute;
   left: 0;
@@ -2507,12 +2495,12 @@ ul.icons li [class*=" icon-"] {
   -webkit-transition-duration: 250ms;
 }
 
-/* line 227, ../scss/_social_buttons.scss */
+/* line 230, ../scss/_social_buttons.scss */
 .css-linkedin:hover img {
   margin-top: -62px;
 }
 
-/* line 230, ../scss/_social_buttons.scss */
+/* line 233, ../scss/_social_buttons.scss */
 .css-linkedin .css-details {
   position: absolute;
   left: 0;
@@ -2521,68 +2509,82 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* line 18, ../scss/style.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* line 22, ../scss/style.scss */
 .css-head-img {
-  background: url(../img/SaltLakeSkylineBlurrr.png) no-repeat;
+  background: url(../img/slc-blur.jpg) no-repeat;
   background-size: cover;
   height: 500px;
   width: 100%;
 }
 
-/* line 25, ../scss/style.scss */
+/* line 29, ../scss/style.scss */
 .css-head-logo {
   width: 100%;
   margin-top: 10em;
   vertical-align: middle;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
 .css-logo-container {
   line-height: 250px;
   width: 40%;
+  min-width: 400px;
   margin: 0 auto;
 }
 
-/* line 37, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 .css-main-body {
-  min-width: 300px;
-  width: 60%;
+  width: 680px;
   margin: 4em auto;
 }
 
-/* line 43, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 .css-module {
-  width: 100%;
-  padding: 20px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  background: rgba(175, 175, 175, 0.5);
+  padding: 20px 20px;
+  background: #f8f8f8;
+  border-radius: 4px;
+  border: solid 1px #eee;
+  border-radius: 4px;
+  text-indent: 0px;
 }
 
-/* line 49, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
+.css-module h2 {
+  text-align: center;
+}
+
+/* line 60, ../scss/style.scss */
 .css-null {
   font-family: monospace;
   font-weight: normal;
   color: maroon;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 66, ../scss/style.scss */
 .css-node-img {
   height: 2ex;
   margin-bottom: 1ex;
 }
 
-/* line 60, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 .css-desc {
   text-indent: 2em;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: justify;
+  text-indent: 1.5em;
 }
 
-/* line 64, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .css-teacher-profiles {
   margin: 0 auto;
 }
 
-/* line 68, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .css-teacher-profile {
   display: inline-block;
   width: 49%;
@@ -2590,12 +2592,12 @@ ul.icons li [class*=" icon-"] {
   vertical-align: top;
 }
 
-/* line 75, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .css-profile-container {
   text-align: center;
 }
 
-/* line 79, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 .css-profile-pic {
   width: 175px;
   -webkit-border-radius: 50em;
@@ -2603,19 +2605,38 @@ ul.icons li [class*=" icon-"] {
   border-radius: 50em;
 }
 
-/* line 84, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 .css-teacher-profile-inner {
   margin: 0 auto;
-  width: 75%;
+  width: 280px;
 }
 
-/* line 89, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
+.teacher-bio {
+  line-height: 24px;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+/* line 110, ../scss/style.scss */
+.teacher-bio span {
+  position: relative;
+  font-size: 30px;
+  line-height: 10px;
+  margin: 6px 0 -10px 0;
+  width: 0px;
+  height: 0px;
+}
+
+/* line 119, ../scss/style.scss */
 .css-instruct-head {
   margin-top: 2ex;
   text-align: center;
+  margin: 60px;
+  font-size: 2em;
 }
 
-/* line 94, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .css-instruct-name {
   text-align: center;
   margin: 0ex;
