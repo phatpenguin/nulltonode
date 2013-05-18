@@ -715,50 +715,58 @@ a [class*=" icon-"] {
 /* line 87, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 1.333em;
+  font-size: 1.33333em;
 }
 
 /* line 92, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .btn [class^="icon-"],
-.btn [class*=" icon-"], .nav [class^="icon-"], .nav [class*=" icon-"] {
+.btn [class*=" icon-"], .nav [class^="icon-"],
+.nav [class*=" icon-"] {
   display: inline;
   /* keeps button heights with and without icons the same */
 }
 /* line 96, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .btn [class^="icon-"].icon-large,
-.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large, .nav [class*=" icon-"].icon-large {
+.btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
   line-height: 0.9em;
 }
 /* line 98, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .btn [class^="icon-"].icon-spin,
-.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin, .nav [class*=" icon-"].icon-spin {
+.btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
   display: inline-block;
 }
 
 /* line 102, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .nav-tabs [class^="icon-"],
-.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"], .nav-pills [class*=" icon-"] {
+.nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
+.nav-pills [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
 }
 /* line 105, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 .nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
 .nav-tabs [class*=" icon-"],
-.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large, .nav-pills [class*=" icon-"], .nav-pills [class*=" icon-"].icon-large {
+.nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
+.nav-pills [class*=" icon-"],
+.nav-pills [class*=" icon-"].icon-large {
   line-height: 0.9em;
 }
 
 /* line 109, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 li [class^="icon-"],
-li [class*=" icon-"], .nav li [class^="icon-"], .nav li [class*=" icon-"] {
+li [class*=" icon-"], .nav li [class^="icon-"],
+.nav li [class*=" icon-"] {
   display: inline-block;
   width: 1.25em;
   text-align: center;
 }
 /* line 114, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
 li [class^="icon-"].icon-large,
-li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large, .nav li [class*=" icon-"].icon-large {
+li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
+.nav li [class*=" icon-"].icon-large {
   /* increased font size for icon-large */
-  width: 1.563em;
+  width: 1.5625em;
 }
 
 /* line 118, ../components/compass-twitter-bootstrap/stylesheets_sass/compass_twitter_bootstrap/_font-awesome.sass */
@@ -2512,9 +2520,10 @@ ul.icons li [class*=" icon-"] {
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   min-width: 720px;
+  padding: 0 0 100px 0;
 }
 
-/* line 23, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 .css-head-img {
   background: url(../img/slc-blur.jpg) no-repeat;
   background-size: cover;
@@ -2522,27 +2531,27 @@ body {
   width: 100%;
 }
 
-/* line 30, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .css-head-logo {
   width: 100%;
   margin-top: 11em;
   vertical-align: middle;
 }
 
-/* line 36, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 .css-logo-container {
   line-height: 250px;
   width: 460px;
   margin: 0 auto;
 }
 
-/* line 42, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .css-main-body {
   width: 680px;
   margin: 4em auto;
 }
 
-/* line 47, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .css-module {
   padding: 20px 20px;
   background: #f8f8f8;
@@ -2552,25 +2561,25 @@ body {
   text-indent: 0px;
 }
 
-/* line 56, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 .css-module h2 {
   text-align: center;
 }
 
-/* line 60, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
 .css-null {
   font-family: monospace;
   font-weight: normal;
   color: maroon;
 }
 
-/* line 66, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 .css-node-img {
   height: 2ex;
   margin-bottom: 1ex;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .css-desc {
   text-indent: 2em;
   line-height: 24px;
@@ -2579,12 +2588,12 @@ body {
   text-indent: 1.5em;
 }
 
-/* line 79, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .css-teacher-profiles {
   margin: 0 auto;
 }
 
-/* line 83, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .css-teacher-profile {
   display: inline-block;
   width: 49%;
@@ -2592,12 +2601,12 @@ body {
   vertical-align: top;
 }
 
-/* line 90, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .css-profile-container {
   text-align: center;
 }
 
-/* line 94, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .css-profile-pic {
   width: 175px;
   -webkit-border-radius: 50em;
@@ -2605,20 +2614,20 @@ body {
   border-radius: 50em;
 }
 
-/* line 99, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 .css-teacher-profile-inner {
   margin: 0 auto;
   width: 280px;
 }
 
-/* line 104, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 .teacher-bio {
   line-height: 24px;
   text-align: justify;
   text-indent: 1.5em;
 }
 
-/* line 110, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .teacher-bio span {
   position: relative;
   font-size: 30px;
@@ -2628,7 +2637,7 @@ body {
   height: 0px;
 }
 
-/* line 119, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .css-instruct-head {
   margin-top: 2ex;
   text-align: center;
@@ -2636,8 +2645,21 @@ body {
   font-size: 2em;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 .css-instruct-name {
   text-align: center;
-  margin: 0ex;
+  margin: 20px;
+}
+
+/* line 132, ../scss/style.scss */
+.needle-logo {
+  text-align: center;
+  margin: 0 0 4px 0;
+}
+
+/* line 137, ../scss/style.scss */
+.needle-logo img {
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px #666;
 }
