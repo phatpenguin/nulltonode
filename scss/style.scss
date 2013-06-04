@@ -58,15 +58,20 @@ body {
   text-align: center;
 }
 
-.css-null {
-  font-family: monospace;
-  font-weight: normal;
-  color: maroon;
+.book-sponsor {
+
+  margin-top: 6ex;
+
+  h2 {
+    text-align: center;
+  }
+
 }
 
-.css-node-img {
-  height: 2ex;
-  margin-bottom: 1ex;
+.book-sponsor-img {
+  height: 50px;
+  margin: 0 auto;
+  display: block;
 }
 
 .css-desc {
